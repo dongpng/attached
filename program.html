@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>Bridging methodologies in analysing text as social and cultural data</title>
+
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom CSS -->
+    <link href="css/blog-home.css" rel="stylesheet">
+
+    <!-- HTML5 Shim and Respond.js IE8 support of HTML5 elements and media queries -->
+    <!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
+    <!--[if lt IE 9]>
+        <script src="https://oss.maxcdn.com/libs/html5shiv/3.7.0/html5shiv.js"></script>
+        <script src="https://oss.maxcdn.com/libs/respond.js/1.4.2/respond.min.js"></script>
+    <![endif]-->
+
+</head>
+
+<body>
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+        <div class="container">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" href="index.html">Home</a>
+            </div>
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="speakers.html">Speakers</a>
+                    </li>
+                    <li>
+                        <a href="#">Program</a>
+                    </li>
+                    <li>
+                        <a href="venue.html">Venue</a>
+                    </li>
+                   
+                </ul>
+            </div>
+            <!-- /.navbar-collapse -->
+        </div>
+        <!-- /.container -->
+    </nav>
+
+    <!-- Page Content -->
+    <div class="container">
+
+        <div class="row">
+
+            <!-- Blog Entries Column -->
+            <div class="col-md-8">
+
+                <h1>
+                    Program
+                </h1>
+                <p class="lead">
+                The workshop will be organised around themes. Each theme will have talks and discussions, the latter organised according to themed breakout sessions (topics also based on participants' interests).
+                </p>
+
+                <div class="well well-sm text-center">
+                This page is in progress. Any feedback is welcome! 
+                </div>
+                <h2>Ethics</h2>
+                <p>
+                The rise of big data, and consequently the introduction of new types of data sources and research directions, has raised numerous complex ethical questions spanning the entire research process, ranging from data collection (e.g., private vs public data, linking data across various sources), to data annotation and operationalization of variables (e.g., assigning social categories such as race and gender), to the development of NLP tools that might embed human bias (e.g., word embeddings) or that are less effective for certain social groups (e.g. parsers that work less well on texts written by younger people) to possible harmful effect in disseminating results (e.g. reinforcement of stereotypes). 
+
+                </p>
+
+                <h5>Potential topics for break out sessions</h5>
+                <ul>
+                <li>Stereotyping, e.g., as caused by the treatment of social categories like gender in NLP
+                    (<a href="http://onlinelibrary.wiley.com/doi/10.1111/josl.12080/abstract">Bamman et al. 2014</a>, <a href="http://dongnguyen.nl/publications/nguyen-coling2014.pdf">Nguyen et al. 2014</a>,
+                    <a href="http://www.ethicsinnlp.org/workshop/pdf/EthNLP04.pdf">Larson et al., 2017</a>,
+                    <a href="http://www.ethicsinnlp.org/workshop/pdf/EthNLP03.pdf">Koolen and van Cranenburgh, 2017</a>)</li>
+                <li>Perpetuation of human bias in models 
+                    (<a href="http://science.sciencemag.org/content/356/6334/183.full">Caliskan et al., 2017</a>,
+                     <a href="http://papers.nips.cc/paper/6228-man-is-to-computer-programmer-as-woman-is-to-homemaker-debiasing-word-embeddings">Bolukbasi et al., 2016</a>)
+                </li>
+                <li>Effectiveness of NLP tools across social/demographic groups (<a href="http://www.aclweb.org/anthology/P15-2079">Hovy and Søgaard, 2015</a>, <a href="http://www.ethicsinnlp.org/workshop/pdf/EthNLP06.pdf">Tatman 2017</a>)</li>
+                <li>Privacy (e.g., public vs. hidden data, data linking, inferring 'hidden' information)</li>
+                <li>Incorporating ethics in the research process. Would something like IRB be suitable?</li>
+                </ul>
+                </p>
+
+
+                <h5>Background material</h5>
+                <ul>
+                    <li><a href="http://www.ethicsinnlp.org/">Ethics in NLP workshop</a></li>
+                    <li><a href="http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005399">Ten simple rules for responsible big data research, Zook et al. 2017</a>
+                    <li><a href="http://www.tandfonline.com/doi/abs/10.1080/1369118X.2012.678878">Critical questions for big data: Provocations for a cultural, technological, and scholarly phenomenon, boyd and Crawford, 2012</a>
+                    <li><a href="http://faculty.washington.edu/ebender/2017_575/">NLP Ethics bibliography by Emily Bender</a>
+                    <li><a href="http://www.dirkhovy.com/portfolio/papers/download/ethics.pdf">The social impact of natural language processing, Hovy and Spruit, 2016</a>
+                </ul>
+
+                <h2>The role of computational methods in theory building and explanation</h2>
+                <p>
+                In the social sciences and the humanities, researchers seek to understand a social or cultural phenomenon. Statistical models are mostly used to support their understanding and for theory building and testing. In natural language processing, however, the focus tends to be on building models that are effective on prediction tasks. Which goal is leading has a large influence on the selection and validation of models. Research within natural language processing and machine learning has had a hyper focus on prediction performance. Furthermore, as machine learning models are becoming increasingly complex and are often referred to as black boxes, we are possibly moving even further away from using NLP/ML for theory building and explanation.
+
+                </p>
+                
+                <h5>Potential topics for break out sessions</h5>
+                <ul>
+                <li>The role of linguistic and social science theories in data annotation and building NLP models.</li>
+                <li>The tension between prediction and explanation (including its impact on evaluating NLP research) (<a href="https://www.stat.berkeley.edu/~aldous/157/Papers/shmueli.pdf">Shmueli 2010</a>, <a href="http://science.sciencemag.org/content/355/6324/486">Hofman et al. 2017</a>, <a href="https://projecteuclid.org/euclid.ss/1009213726">Breiman 2001</a>)
+                </li>
+                <li>Approaches to improve transparency/interpretability of NLP models (<a href="https://arxiv.org/pdf/1612.08220.pdf">Li et al. 2017</a>, <a href="https://www.aclweb.org/anthology/W/W16/W16-1601.pdf">Arras et al. 2016</a>, <a href="https://www.aclweb.org/anthology/D/D16/D16-1216.pdf">Aubakirova and Bansal 2016</a>) </li>
+                <li>Abductive vs. inductive vs. deductive approaches in the humanities and the social sciences (<a href="http://journals.sagepub.com/doi/abs/10.1177/2053951714528481">Kitchin 2014</a>), and the role of NLP</li>
+                <li>Causality (??)</li>
+                </ul>
+                </p>
+
+                
+
+                <h2>Interdisciplinary research</h2>
+                <p>
+                Research in this area is inherently interdisciplinary. As argued by <a href="http://www.sciencedirect.com/science/article/pii/S0362331997900513">Nissani (1997)</a>, interdisciplinary research has the potential to lead to creative breakthroughs and to prevent cross-disciplinary oversights and disciplinary cracks (e.g., neglecting important research problems that do not fall within disciplinary boundaries). But doing interdisciplinary research also brings various challenges, such as finding suitable publication venues, acquiring funding, and the impact on research evaluation. 
+                </p>
+                <h5>Potential discussion topics</h5>
+                <ul>
+                    <li>Publishing interdisciplinary research (e.g., publication venues)</li> 
+                    <li>Impact of interdisciplinary resarch on career paths and evaluation of research</li>
+                    <li>Building a community and connecting disciplines (e.g., non-archival submission options in
+                        computer science conferences)</li>
+                    <li>Funding</li>
+                </ul>
+
+                <h5>Background material</h5>
+                <ul>
+                    <li><a href="http://www.britac.ac.uk/blog/crossing-paths-%E2%80%93-british-academy-report-interdisciplinarity-uk-universities">
+                    Crossing Paths Interdisciplinarity report (British Academy, 2016)</a>
+                    </li>
+                </ul>
+
+            </div>
+
+
+        </div>
+        <!-- /.row -->
+
+      
+        <!-- Footer -->
+        <footer>
+            <div class="row">
+                <div class="col-lg-12">
+                    
+                </div>
+                <!-- /.col-lg-12 -->
+            </div>
+            <!-- /.row -->
+        </footer>
+
+    </div>
+    <!-- /.container -->
+
+    <!-- jQuery -->
+    <script src="js/jquery.js"></script>
+
+    <!-- Bootstrap Core JavaScript -->
+    <script src="js/bootstrap.min.js"></script>
+
+</body>
+
+</html>
