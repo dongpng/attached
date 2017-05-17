@@ -87,7 +87,7 @@
 
                 <h5>Tentative topics for break out sessions</h5>
                 <ul>
-                <li>Stereotyping, e.g., as caused by the treatment of social categories like gender in NLP
+                <li>Stereotyping, e.g., as caused by the treatment of social variables like gender in NLP
                     (<a href="http://onlinelibrary.wiley.com/doi/10.1111/josl.12080/abstract">Bamman et al. 2014</a>, <a href="http://dongnguyen.nl/publications/nguyen-coling2014.pdf">Nguyen et al. 2014</a>,
                     <a href="http://www.ethicsinnlp.org/workshop/pdf/EthNLP04.pdf">Larson et al., 2017</a>,
                     <a href="http://www.ethicsinnlp.org/workshop/pdf/EthNLP03.pdf">Koolen and van Cranenburgh, 2017</a>)</li>
@@ -111,6 +111,36 @@
                     <li><a href="http://www.dirkhovy.com/portfolio/papers/download/ethics.pdf">The social impact of natural language processing, Hovy and Spruit, 2016</a>
                 </ul>
 
+                <h2>Operationalising social and cultural concepts</h2>
+                <p>
+                Qualitative approaches seek to preserve the complexity of the phenomena of interest, but quantitative approaches need to discretize (and thereby also simplify) the phenomena to allow measurements. The operationalization of these variables has a huge influence, both in developing meaningful and re-useable annotation schemes and in interpreting results. Furthermore, in many large-scale studies the impact of agency has not been sufficiently taken into account. Insights from the social sciences and the humanities could serve as a source of inspiration and reflection for the operationalization of variables in many large-scale text analyses.
+                </p>
+                
+                <h5>Tentative topics for break out sessions</h5>
+                <ul>
+                <li>How we create annotation schemas in NLP vs social sciences (e.g. examples from conversation analysis)
+                    <ul>
+                    <li>Interoperability for linguistic annotations (<a href="https://sigann.github.io/LAW-XI-2017/">LAW</a> workshops, <a href="http://www.nilc.icmc.usp.br/elc-ebralc2012/minicursos/ide-suderman-LRE-standards.pdf">Ide and Suderman 2014</a>, GRAF)</li>
+                    <li><a href="http://www.cs.cmu.edu/~hovy/papers/10KNS-annotation-Hovy-Lavid.pdf">The science of corpus annotation, Hovy and Lavid 2010</a></li>
+                    </ul>
+                </li>
+                <li>Operationalisation of social variables (e.g. age, gender, social class, ethnicity)
+                </li>
+                <li>Validation (<a href="https://academic.oup.com/pan/article-abstract/21/3/267/1579321/Text-as-Data-The-Promise-and-Pitfalls-of-Automatic">Grimmer and Stewart 2013</a>, <a href="https://academic.oup.com/pan/article-abstract/21/3/298/1582798/Validating-Estimates-of-Latent-Traits-from-Textual?redirectedFrom=fulltext">Lowe and Benoit 2013</a>,<a href="http://www.nature.com/nature/journal/v545/n7653/standfirst/545166a_ja.html">Rosé 2017</a>)
+                </li>
+                <li>Data driven vs theory driven (<a href="http://journals.sagepub.com/doi/abs/10.1177/2053951714528481">Kitchin 2014</a>)</li>
+                <li>How can large-scale computational approaches support non-reductionist, non-essentialist approaches?
+                </ul>
+                </p>
+
+                <h5>Background material</h5>
+                <ul>
+                    <li>
+                    <a href="http://www.mitpressjournals.org/doi/abs/10.1162/COLI_a_00258#.WRytSBPyvBK">Computational Sociolinguistics: A Survey, Nguyen et al. 2016</a>
+                    </li>
+                </ul>
+
+
                 <h2>Computational methods for theory building and explanation</h2>
                 <p>
                 In the social sciences and the humanities, researchers seek to understand a social or cultural phenomenon. Statistical models are mostly used to support their understanding and for theory building and testing. In natural language processing, however, the dominant focus is on building models that are effective on prediction tasks. Underlying objectives drive the selection and validation of models. As machine learning models are becoming increasingly complex and are often seen as black boxes, we are possibly moving even further away from using NLP/ML for theory building and explanation.
@@ -125,6 +155,7 @@
                 <li>Approaches to improve transparency/interpretability of NLP models (<a href="https://arxiv.org/pdf/1612.08220.pdf">Li et al. 2017</a>, <a href="https://www.aclweb.org/anthology/W/W16/W16-1601.pdf">Arras et al. 2016</a>, <a href="https://www.aclweb.org/anthology/D/D16/D16-1216.pdf">Aubakirova and Bansal 2016</a>) </li>
                 <li>Abductive vs. inductive vs. deductive approaches in the humanities and the social sciences (<a href="http://journals.sagepub.com/doi/abs/10.1177/2053951714528481">Kitchin 2014</a>), and the role of NLP</li>
                 <li>Causality (<a href="https://www.aclweb.org/anthology/P/P16/P16-1151.pdf">Fong and Grimmer 2016</a>, <a href="https://stanford.edu/~jgrimmer/bd_2.pdf">Grimmer 2015</a>)</li>
+                <li>Comparison of methods, e.g., comparing grounded theory and topic modeling (<a href="http://onlinelibrary.wiley.com/doi/10.1002/asi.23786/abstract">Baumer et al. 2017</a>)
                 </ul>
                 </p>
 
@@ -133,16 +164,17 @@
                 <p>
                While big social and cultural datasets offer many opportunities to study social and cultural phenomena, the datasets are often less controlled compared to more traditional datasets. They often contain unknown or not well understood biases and as a result, models and findings could be confounded, leading to low interpretability and limited justification for generalization to other domains. 
                </p><p>
-                First, the datasets might contain content created by people who are very different from the general population. The uncontrolled nature of the data makes it challenging to obtain information about the social backgrounds of the content creators and therefore to account for these biases. Second, the focus on different data sources is not well balanced. For example,  social media studies often focus on individual data sources, and in particular Twitter. The dominance of Twitter is described by <a href="https://arxiv.org/pdf/1403.7400.pdf"> Tufekci (2014)</a> as Twitter being the ‘model organism’ for social media studies. This is problematic however, since the design of social media platforms affects user behavior at all levels, e.g., leading to differences in language use and network structures. Third, even when focusing on a single data source, biases might be introduced due to the sampling method (e.g. by focusing on geotagged tweets (<a href="http://www.aclweb.org/anthology/D15-1256">Pavalanathan and Eisenstein, 2015</a>)). 
+                Firstly, the datasets may contain content created by people who are very different from the general population. The uncontrolled nature of the data makes it challenging to obtain information about the social backgrounds of the content creators and therefore to account for these biases. Second, the focus on different data sources is not well balanced. For example,  social media studies often focus on individual data sources, and in particular Twitter. The dominance of Twitter is described by <a href="https://arxiv.org/pdf/1403.7400.pdf"> Tufekci (2014)</a> as Twitter being the ‘model organism’ for social media studies. This is problematic however, since the design of social media platforms affects user behavior at all levels, e.g., leading to differences in language use and network structures. Third, even when focusing on a single data source, biases might be introduced due to the sampling method (e.g. by focusing on geotagged tweets (<a href="http://www.aclweb.org/anthology/D15-1256">Pavalanathan and Eisenstein, 2015</a>)). 
 
 
                 </p>
                 
                 <h5>Tentative topics for break out sessions</h5>
                 <ul>
-                <li>Sampling methods (<a href="http://ella.slis.indiana.edu/~herring/cmda.pdf">Herring 2004</a>, <a href="http://www.aclweb.org/anthology/D15-1256">Pavalanathan and Eisenstein 2015</a>, <a href="https://www.aaai.org/ocs/index.php/ICWSM/ICWSM13/paper/viewFile/6128/6347">Cohen and Ruths 2013</a>)</li>
-                <li>Source selection (e.g., overrepresentation of Twitter in research) </li>
-                <li>Domain adaptation</li>
+                <li>Sampling methods (<a href="http://ella.slis.indiana.edu/~herring/cmda.pdf">Herring 2004</a>, <a href="http://www.aclweb.org/anthology/D15-1256">Pavalanathan and Eisenstein 2015</a>, <a href="https://www.aaai.org/ocs/index.php/ICWSM/ICWSM13/paper/viewFile/6128/6347">Cohen and Ruths 2013</a>, <a href="http://wwwconference.org/proceedings/www2014/companion/p555.pdf">Morstatter et al. 2014</a>)</li>
+                <li>Source selection (e.g., overrepresentation of Twitter in research) and comparison (<a href="http://www.aclweb.org/anthology/I13-1041">Baldwin et al. 2013</a>, <a href="https://www.aaai.org/ocs/index.php/ICWSM/ICWSM13/paper/view/6139">Hu et al. 2013</a>).</li>
+                <li>Domain adaptation, such as adapting tools to dialects on social media (<a href="http://aclweb.org/anthology/W/W15/W15-4302.pdf">Jørgensen et al. 2015</a>), adapting POS taggers for Twitter (<a href="https://aclweb.org/anthology/W/W15/W15-4324.pdf">Wulff and Søgaard 2015</a>), and tools
+                for under-resourced languages (<a href="http://aclweb.org/anthology/P15-2044">Agić et al. 2015</a>, <a href="https://www.aclweb.org/anthology/Q/Q16/Q16-1022.pdf">Agić et al. 2016</a>)</li>
 
                 </ul>
 
